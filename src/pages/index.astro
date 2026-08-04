@@ -321,6 +321,12 @@
     </form>
   </div>
 </section>
+
+<footer class="siteFooter">
+  <div class="footerLegal">
+    <a href="/terms-of-service">Terms of Service</a>
+  </div>
+</footer>
 </main>
 
 <style>
@@ -1168,6 +1174,34 @@
 
 #solutions h3 {
   color: #c9a84c !important;
+}
+
+.siteFooter {
+  background: #050706;
+  border-top: 1px solid rgba(242,241,235,.14);
+  padding: 26px 7vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.footerLegal a {
+  color: rgba(242,241,235,.6);
+  font-family: 'Poppins', sans-serif;
+  font-size: 11px;
+  letter-spacing: .18em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.footerLegal a:hover {
+  color: #10bb82;
+}
+
+@media (max-width: 900px) {
+  .siteFooter {
+    padding: 22px 24px;
+    justify-content: center;
+  }
 }
 </style>
 
